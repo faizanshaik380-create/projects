@@ -1,0 +1,69 @@
+/* Global page design */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    margin:0;
+}
+
+/* Navbar */
+.navbar{
+    background:#1e3a5f;
+    padding:15px;
+    color:white;
+}
+
+/* Container */
+.container{
+    width:90%;
+    margin:auto;
+    margin-top:30px;
+}
+
+/* Cards */
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom:20px;
+}
+
+/* Buttons */
+.btn{
+    background:#0ea5a4;
+    color:white;
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    text-decoration:none;
+}
+
+.btn:hover{
+    background:#0b8f8e;
+}
+
+/* Tables */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th{
+    background:#1e3a5f;
+    color:white;
+    padding:12px;
+}
+
+table td{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+/* Forms */
+input, select{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
